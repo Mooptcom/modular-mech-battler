@@ -13,6 +13,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
+    "resolveJsonModule": true, // Allow importing .json files
     "types": [
       "bun-types" // add Bun global
     ]

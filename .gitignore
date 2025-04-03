@@ -170,3 +170,4 @@ dist
 
 # kai
 assets/
+.DS_Store

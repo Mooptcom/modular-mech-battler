@@ -23,6 +23,9 @@
  * Official SDK NPM Package: https://www.npmjs.com/package/hytopia
  */
 
+// Import our custom server initialization (including database connection)
+import './src/server/main.js'; // Note the .js extension
+
 import {
   startServer,
   Audio,
