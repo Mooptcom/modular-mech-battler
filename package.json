@@ -1,0 +1,12 @@
+{
+  "name": "modular-mech-battler",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.5.0"
+  },
+  "dependencies": {
+    "@hytopia.com/assets": "^0.2.8",
+    "hytopia": "latest"
+  }
+}
