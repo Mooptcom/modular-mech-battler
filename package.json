@@ -7,6 +7,8 @@
   },
   "dependencies": {
     "@hytopia.com/assets": "^0.2.8",
-    "hytopia": "latest"
+    "@types/pg": "^8.11.11",
+    "hytopia": "latest",
+    "pg": "^8.14.1"
   }
 }
