@@ -9,7 +9,8 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependencies using npm (recommended for better compatibility than bun in some cases)
-RUN npm install
+# Install dependencies, including devDependencies
+RUN npm install --production=false
 
 # Copy the rest of the application code
 COPY . .
@@ -21,4 +22,5 @@ COPY . .
 EXPOSE 3000
 
 # Define the command to run the application
-CMD [ "node", "index.ts" ] # Or your compiled JS entry point if you build
+# Define the command to run the application using ts-node
+CMD [ "npx", "ts-node", "index.ts" ]
